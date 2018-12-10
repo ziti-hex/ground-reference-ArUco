@@ -24,7 +24,7 @@ https://docs.px4.io/en/sensor/px4flow.html
 
 http://ardupilot.org/copter/docs/common-px4flow-overview.html
 
-PX4FLOW
+#### PX4FLOW
 
 Specifications:
 
@@ -45,6 +45,9 @@ Features:
 
 
 http://ardupilot.org/copter/docs/common-optical-flow-sensors-landingpage.html#common-optical-flow-sensors-landingpage
+
+#### Cheerson CX-OF Optical Flow
+    The Cheerson CX-OF optical flow sensor is a leightweight and low cost optical flow sensor which can be used to improve horizontal position control especially in GPS denied environments.
 ## GPS
 TODO
 ## IMU
