@@ -9,7 +9,12 @@ ROS verwendet ein "Publisher-Listener" Konzept welches darauf basiert dass ein s
 rostopic echo /mavros/imu/data
 
 oder einen Listener in C++ oder Python schreiben um die Daten weiter zu verarbeiten. Ein Beispiel für ein Listener und Publisher kann in catkin_ws/scripts/MAVROS nachgeschlagen werden.
-### Daten unter MAVLINK
+### Daten unter PYMAVLINK / DroneKit
+Hier verbinden wir uns per MAVLINK direkt mit der Drohne ohne dem Umweg über ROS. Diese Methode ist ohne Zeitstempel und Synchronisation deswegen nicht genauer erläutert. Für mehr Informationen:
+
+https://dev.px4.io/en/middleware/mavlink.html
+
+https://dev.px4.io/en/robotics/dronekit.html
 ## PX4Flow
 https://docs.px4.io/en/sensor/px4flow.html
 ## GPS
