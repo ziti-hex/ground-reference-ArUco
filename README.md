@@ -24,7 +24,8 @@ https://docs.px4.io/en/sensor/px4flow.html
 
 http://ardupilot.org/copter/docs/common-px4flow-overview.html
 
-#### PX4FLOW
+#### PX4FLOW 
+Die Bezeichnungen v1.3.1 und v2.1 sind nur Herstellerabhängig und beschreiben die Gleiche Hardware:
 
 Specifications:
 
@@ -54,4 +55,6 @@ http://ardupilot.org/copter/docs/common-installing-3dr-ublox-gps-compass-module.
 ## IMU
 Pixhawk besitzt onboard IMU die auch abgefragt werden kann.
 ## AruCo feat. RPi mit Kamera
-Hier entsteht ein Werkzeug zur zusätlichen Datenerfassung mit einer RPi Kamera und AruCo Markern um ein Referenzsystem zu erhalten. Es sollen an hand von im Raum ausgelegten AruCo Markern die Eigene Position bestimmt werden um diese mit anderen Systemen zu vergleichen.   
+Hier entsteht ein Werkzeug zur zusätlichen Datenerfassung mit einer RPi Kamera und AruCo Markern um ein Referenzsystem zu erhalten. Es sollen an hand von im Raum ausgelegten AruCo Markern die Eigene Position bestimmt werden um diese mit anderen Systemen zu vergleichen.
+## Andere Mögliche Sensoren
+https://docs.px4.io/en/sensor/rangefinders.html#maxbotix-i2cxl-maxsonar-ez
