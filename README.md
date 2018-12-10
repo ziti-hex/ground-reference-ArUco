@@ -47,10 +47,11 @@ Features:
 http://ardupilot.org/copter/docs/common-optical-flow-sensors-landingpage.html#common-optical-flow-sensors-landingpage
 
 #### Cheerson CX-OF Optical Flow
-    The Cheerson CX-OF optical flow sensor is a leightweight and low cost optical flow sensor which can be used to improve horizontal position control especially in GPS denied environments.
+    The Cheerson CX-OF optical flow sensor is a leightweight and low cost optical flow sensor
+    which can be used to improve horizontal position control especially in GPS denied environments.
 ## GPS
-TODO
+http://ardupilot.org/copter/docs/common-installing-3dr-ublox-gps-compass-module.html
 ## IMU
-TODO
+Pixhawk besitzt onboard IMU die auch abgefragt werden kann.
 ## AruCo feat. RPi mit Kamera
-TODO
+Hier entsteht ein Werkzeug zur zusätlichen Datenerfassung mit einer RPi Kamera und AruCo Markern um ein Referenzsystem zu erhalten. Es sollen an hand von im Raum ausgelegten AruCo Markern die Eigene Position bestimmt werden um diese mit anderen Systemen zu vergleichen.   
